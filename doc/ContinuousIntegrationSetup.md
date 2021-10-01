@@ -10,8 +10,6 @@ The CI build pipeline is setup with GitHub Actions by referring to the excellent
 
  Please refer to the full GitHub workflow file at [.github/workflows/truffle.yml](../.github/workflows/truffle.yml). I will further elaborate each build process below.
 
-
-
 ## Build Processes
 
 ### Check out the source code
@@ -63,20 +61,6 @@ Expected output:
 
 ![Test Report](https://github.com/limcheekin/eth-dapps-nextjs-boiletplate/raw/master/doc/images/test.png "Test Report")
 
-### Run Codechecks
-This step will generate ETH gas report for smart contracts.
-```yaml
-- name: Run Codechecks
-  run: npx codechecks
-  env:
-    CC_SECRET: ${{ secrets.CC_SECRET }}  
-```
-Expected output:
-
-![ETH Gas Report](https://github.com/limcheekin/eth-dapps-nextjs-boiletplate/raw/master/doc/images/eth-gas-report.png "ETH Gas Report")
-
-You need to request the `CC_SECRET` from https://app.codechecks.io/ for CI build.
-
 ### Run Test Coverage
 ```yaml
 - name: Run Test Coverage
@@ -85,17 +69,6 @@ You need to request the `CC_SECRET` from https://app.codechecks.io/ for CI build
 Expected output:
 
 ![Coverage](https://github.com/limcheekin/eth-dapps-nextjs-boiletplate/raw/master/doc/images/coverage.png "Coverage")
-
-### Send Coverage Data To Coveralls (Optional)
-This step is optional. First, it generates `.coveralls.yml` file with `repo_token` defined in `DOT_COVERALLS_YML` secret. Then, it sends the coverage data to `coveralls`.
-```yaml    
-- name: Generate .coveralls.yml file
-  run: echo "${{ secrets.DOT_COVERALLS_YML }}" > .coveralls.yml
-- name: Send Coverage Info to CoverAlls
-  run: cat coverage/lcov.info | npx coveralls
-```
-
-You need to request the `repo_token` from https://coveralls.io/.
 
 ### Setup Python
 Setup Python environment required by SmartBugs.
