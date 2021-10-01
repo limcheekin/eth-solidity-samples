@@ -1,0 +1,8 @@
+{
+  "contract": "lottery",
+  "tool": "honeybadger",
+  "start": 1633058662.1898942,
+  "end": 1633058662.9714549,
+  "duration": 0.7815606594085693,
+  "analysis": []
+}

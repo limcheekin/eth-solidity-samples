@@ -1,0 +1,8 @@
+{
+  "contract": "auction_final",
+  "tool": "slither",
+  "start": 1633058577.6943898,
+  "end": 1633058578.7478569,
+  "duration": 1.053467035293579,
+  "analysis": []
+}

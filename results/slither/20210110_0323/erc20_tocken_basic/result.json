@@ -1,0 +1,8 @@
+{
+  "contract": "erc20_tocken_basic",
+  "tool": "slither",
+  "start": 1633058613.1864014,
+  "end": 1633058614.1744332,
+  "duration": 0.9880318641662598,
+  "analysis": []
+}

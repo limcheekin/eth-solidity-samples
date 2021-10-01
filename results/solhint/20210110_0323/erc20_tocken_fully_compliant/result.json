@@ -1,0 +1,65 @@
+{
+  "contract": "erc20_tocken_fully_compliant",
+  "tool": "solhint",
+  "start": 1633058634.381809,
+  "end": 1633058635.4679494,
+  "duration": 1.0861403942108154,
+  "analysis": [
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/erc20_tocken_fully_compliant.sol",
+      "line": "77",
+      "column": "10",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/erc20_tocken_fully_compliant.sol",
+      "line": "78",
+      "column": "10",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/erc20_tocken_fully_compliant.sol",
+      "line": "80",
+      "column": "10",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/erc20_tocken_fully_compliant.sol",
+      "line": "81",
+      "column": "10",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/erc20_tocken_fully_compliant.sol",
+      "line": "82",
+      "column": "10",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/erc20_tocken_fully_compliant.sol",
+      "line": "84",
+      "column": "10",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/erc20_tocken_fully_compliant.sol",
+      "line": "85",
+      "column": "6",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "level": "Error",
+      "type": "indent"
+    }
+  ]
+}

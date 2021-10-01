@@ -1,0 +1,8 @@
+{
+  "contract": "erc20_tocken_basic",
+  "tool": "solhint",
+  "start": 1633058611.1210082,
+  "end": 1633058612.2196383,
+  "duration": 1.0986301898956299,
+  "analysis": []
+}

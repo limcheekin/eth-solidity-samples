@@ -1,0 +1,8 @@
+{
+  "contract": "auction_with_creator",
+  "tool": "manticore",
+  "start": 1633058587.1002798,
+  "end": 1633058588.1679022,
+  "duration": 1.067622423171997,
+  "analysis": []
+}

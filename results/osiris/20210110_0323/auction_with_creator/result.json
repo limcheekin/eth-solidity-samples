@@ -1,0 +1,8 @@
+{
+  "contract": "auction_with_creator",
+  "tool": "osiris",
+  "start": 1633058600.6838663,
+  "end": 1633058601.6073287,
+  "duration": 0.9234623908996582,
+  "analysis": []
+}

@@ -1,0 +1,12 @@
+{
+  "contract": "erc20_tocken_fully_compliant",
+  "tool": "maian",
+  "start": 1633058640.7975972,
+  "end": 1633058647.5988588,
+  "duration": 6.80126166343689,
+  "analysis": {
+    "is_lock_vulnerable": false,
+    "is_prodigal_vulnerable": false,
+    "is_suicidal_vulnerable": false
+  }
+}

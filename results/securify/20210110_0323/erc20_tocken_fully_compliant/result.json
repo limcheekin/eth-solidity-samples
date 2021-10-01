@@ -1,0 +1,8 @@
+{
+  "contract": "erc20_tocken_fully_compliant",
+  "tool": "securify",
+  "start": 1633058635.531248,
+  "end": 1633058636.3795664,
+  "duration": 0.848318338394165,
+  "analysis": null
+}

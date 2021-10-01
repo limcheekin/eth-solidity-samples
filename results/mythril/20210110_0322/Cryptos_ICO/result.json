@@ -1,0 +1,12 @@
+{
+  "contract": "Cryptos_ICO",
+  "tool": "mythril",
+  "start": 1633058547.598619,
+  "end": 1633058549.863462,
+  "duration": 2.264842987060547,
+  "analysis": {
+    "success": false,
+    "error": "Solc experienced a fatal error (code 1).\n\n//home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/Cryptos_ICO.sol:27:17: Error: Expected identifier but got reserved keyword 'override'\n    uint public override totalSupply;\n                ^------^\n",
+    "issues": []
+  }
+}

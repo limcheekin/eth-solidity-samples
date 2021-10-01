@@ -1,0 +1,11 @@
+{
+  "contract": "erc20_tocken_basic",
+  "tool": "manticore",
+  "start": 1633058604.3865066,
+  "end": 1633058606.9385352,
+  "duration": 2.5520286560058594,
+  "analysis": [
+    [],
+    []
+  ]
+}

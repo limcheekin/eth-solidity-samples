@@ -1,0 +1,8 @@
+{
+  "contract": "lottery",
+  "tool": "osiris",
+  "start": 1633058663.8605993,
+  "end": 1633058664.6934981,
+  "duration": 0.8328988552093506,
+  "analysis": []
+}

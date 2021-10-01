@@ -1,0 +1,12 @@
+{
+  "contract": "Cryptos_ICO",
+  "tool": "maian",
+  "start": 1633058564.763783,
+  "end": 1633058565.9326956,
+  "duration": 1.168912649154663,
+  "analysis": {
+    "is_lock_vulnerable": false,
+    "is_prodigal_vulnerable": false,
+    "is_suicidal_vulnerable": false
+  }
+}

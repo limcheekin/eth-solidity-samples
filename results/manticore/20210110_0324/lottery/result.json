@@ -1,0 +1,8 @@
+{
+  "contract": "lottery",
+  "tool": "manticore",
+  "start": 1633058651.215545,
+  "end": 1633058652.0378902,
+  "duration": 0.8223452568054199,
+  "analysis": []
+}

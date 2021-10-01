@@ -1,0 +1,81 @@
+{
+  "contract": "lottery",
+  "tool": "smartcheck",
+  "start": 1633058652.144863,
+  "end": 1633058655.0580387,
+  "duration": 2.9131758213043213,
+  "analysis": [
+    {
+      "name": "SOLIDITY_PRAGMAS_VERSION",
+      "patternId": "23fc32",
+      "severity": 1,
+      "line": 3,
+      "column": 16,
+      "content": ">="
+    },
+    {
+      "name": "SOLIDITY_PRAGMAS_VERSION",
+      "patternId": "23fc32",
+      "severity": 1,
+      "line": 3,
+      "column": 24,
+      "content": "<"
+    },
+    {
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1,
+      "line": 13,
+      "column": 4,
+      "content": "constructor(){manager=msg.sender;}"
+    },
+    {
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1,
+      "line": 8,
+      "column": 4,
+      "content": "addresspayable[]public"
+    },
+    {
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1,
+      "line": 8,
+      "column": 29,
+      "content": "players;"
+    },
+    {
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1,
+      "line": 19,
+      "column": 4,
+      "content": "receive"
+    },
+    {
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1,
+      "line": 21,
+      "column": 15,
+      "content": "(msg.value==0.1ether);players."
+    },
+    {
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1,
+      "line": 23,
+      "column": 16,
+      "content": "push"
+    },
+    {
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1,
+      "line": 23,
+      "column": 20,
+      "content": "(payable(msg.sender));"
+    }
+  ]
+}

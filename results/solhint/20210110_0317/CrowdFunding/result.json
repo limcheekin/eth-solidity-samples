@@ -1,0 +1,8 @@
+{
+  "contract": "CrowdFunding",
+  "tool": "solhint",
+  "start": 1633058373.5990741,
+  "end": 1633058381.1133974,
+  "duration": 7.5143232345581055,
+  "analysis": []
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "CrowdFunding",
+  "tool": "manticore",
+  "start": 1633058285.4809606,
+  "end": 1633058308.8007963,
+  "duration": 23.319835662841797,
+  "analysis": []
+}

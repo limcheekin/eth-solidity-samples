@@ -1,0 +1,8 @@
+{
+  "contract": "CrowdFunding",
+  "tool": "osiris",
+  "start": 1633058520.750803,
+  "end": 1633058546.6546273,
+  "duration": 25.90382432937622,
+  "analysis": []
+}

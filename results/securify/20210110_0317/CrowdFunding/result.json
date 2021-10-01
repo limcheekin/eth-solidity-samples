@@ -1,0 +1,8 @@
+{
+  "contract": "CrowdFunding",
+  "tool": "securify",
+  "start": 1633058381.1322942,
+  "end": 1633058419.4433494,
+  "duration": 38.311055183410645,
+  "analysis": null
+}

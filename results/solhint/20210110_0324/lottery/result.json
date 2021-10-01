@@ -1,0 +1,1145 @@
+{
+  "contract": "lottery",
+  "tool": "solhint",
+  "start": 1633058656.0814672,
+  "end": 1633058657.0805883,
+  "duration": 0.9991211891174316,
+  "analysis": [
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "21",
+      "column": "21",
+      "message": "Expected indentation of 4 spaces but found 20",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "21",
+      "column": "9",
+      "message": "Expected indentation of 4 spaces but found 8",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "23",
+      "column": "30",
+      "message": "Expected indentation of 4 spaces but found 29",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "23",
+      "column": "9",
+      "message": "Expected indentation of 4 spaces but found 8",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "24",
+      "column": "5",
+      "message": "Expected indentation of 0 spaces but found 4",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "27",
+      "column": "34",
+      "message": "Expected indentation of 0 spaces but found 33",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "27",
+      "column": "39",
+      "message": "Expected indentation of 0 spaces but found 38",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "27",
+      "column": "46",
+      "message": "Expected indentation of 0 spaces but found 45",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "27",
+      "column": "47",
+      "message": "Expected indentation of 0 spaces but found 46",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "27",
+      "column": "51",
+      "message": "Expected indentation of 0 spaces but found 50",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "27",
+      "column": "52",
+      "message": "Expected indentation of 0 spaces but found 51",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "27",
+      "column": "5",
+      "message": "Expected indentation of 0 spaces but found 4",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "27",
+      "column": "24",
+      "message": "Expected indentation of 0 spaces but found 23",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "27",
+      "column": "25",
+      "message": "Expected indentation of 0 spaces but found 24",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "27",
+      "column": "27",
+      "message": "Expected indentation of 0 spaces but found 26",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "27",
+      "column": "14",
+      "message": "Expected indentation of 0 spaces but found 13",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "29",
+      "column": "28",
+      "message": "Expected indentation of 0 spaces but found 27",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "29",
+      "column": "20",
+      "message": "Expected indentation of 0 spaces but found 19",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "29",
+      "column": "39",
+      "message": "Expected indentation of 0 spaces but found 38",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "29",
+      "column": "17",
+      "message": "Expected indentation of 0 spaces but found 16",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "29",
+      "column": "16",
+      "message": "Expected indentation of 0 spaces but found 15",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "29",
+      "column": "9",
+      "message": "Expected indentation of 0 spaces but found 8",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "29",
+      "column": "31",
+      "message": "Expected indentation of 0 spaces but found 30",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "29",
+      "column": "21",
+      "message": "Expected indentation of 0 spaces but found 20",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "29",
+      "column": "38",
+      "message": "Expected indentation of 0 spaces but found 37",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "30",
+      "column": "30",
+      "message": "Expected indentation of 0 spaces but found 29",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "30",
+      "column": "28",
+      "message": "Expected indentation of 0 spaces but found 27",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "30",
+      "column": "24",
+      "message": "Expected indentation of 0 spaces but found 23",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "30",
+      "column": "23",
+      "message": "Expected indentation of 0 spaces but found 22",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "30",
+      "column": "16",
+      "message": "Expected indentation of 0 spaces but found 15",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "30",
+      "column": "9",
+      "message": "Expected indentation of 0 spaces but found 8",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "30",
+      "column": "37",
+      "message": "Expected indentation of 0 spaces but found 36",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "30",
+      "column": "29",
+      "message": "Expected indentation of 0 spaces but found 28",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "31",
+      "column": "5",
+      "message": "Expected indentation of 0 spaces but found 4",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "34",
+      "column": "23",
+      "message": "Expected indentation of 0 spaces but found 22",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "34",
+      "column": "37",
+      "message": "Expected indentation of 0 spaces but found 36",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "34",
+      "column": "49",
+      "message": "Expected indentation of 0 spaces but found 48",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "34",
+      "column": "50",
+      "message": "Expected indentation of 0 spaces but found 49",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "34",
+      "column": "32",
+      "message": "Expected indentation of 0 spaces but found 31",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "34",
+      "column": "44",
+      "message": "Expected indentation of 0 spaces but found 43",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "34",
+      "column": "21",
+      "message": "Expected indentation of 0 spaces but found 20",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "34",
+      "column": "20",
+      "message": "Expected indentation of 0 spaces but found 19",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "34",
+      "column": "14",
+      "message": "Expected indentation of 0 spaces but found 13",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "34",
+      "column": "5",
+      "message": "Expected indentation of 0 spaces but found 4",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "34",
+      "column": "45",
+      "message": "Expected indentation of 0 spaces but found 44",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "35",
+      "column": "33",
+      "message": "Expected indentation of 0 spaces but found 32",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "35",
+      "column": "34",
+      "message": "Expected indentation of 0 spaces but found 33",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "35",
+      "column": "46",
+      "message": "Expected indentation of 0 spaces but found 45",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "35",
+      "column": "47",
+      "message": "Expected indentation of 0 spaces but found 46",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "35",
+      "column": "52",
+      "message": "Expected indentation of 0 spaces but found 51",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "35",
+      "column": "8",
+      "message": "Expected indentation of 0 spaces but found 7",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "35",
+      "column": "63",
+      "message": "Expected indentation of 0 spaces but found 62",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "35",
+      "column": "65",
+      "message": "Expected indentation of 0 spaces but found 64",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "35",
+      "column": "70",
+      "message": "Expected indentation of 0 spaces but found 69",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "35",
+      "column": "71",
+      "message": "Expected indentation of 0 spaces but found 70",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "35",
+      "column": "80",
+      "message": "Expected indentation of 0 spaces but found 79",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "35",
+      "column": "82",
+      "message": "Expected indentation of 0 spaces but found 81",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "35",
+      "column": "89",
+      "message": "Expected indentation of 0 spaces but found 88",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "35",
+      "column": "90",
+      "message": "Expected indentation of 0 spaces but found 89",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "35",
+      "column": "96",
+      "message": "Expected indentation of 0 spaces but found 95",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "35",
+      "column": "97",
+      "message": "Expected indentation of 0 spaces but found 96",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "35",
+      "column": "98",
+      "message": "Expected indentation of 0 spaces but found 97",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "35",
+      "column": "99",
+      "message": "Expected indentation of 0 spaces but found 98",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "35",
+      "column": "15",
+      "message": "Expected indentation of 0 spaces but found 14",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "35",
+      "column": "19",
+      "message": "Expected indentation of 0 spaces but found 18",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "35",
+      "column": "20",
+      "message": "Expected indentation of 0 spaces but found 19",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "35",
+      "column": "29",
+      "message": "Expected indentation of 0 spaces but found 28",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "35",
+      "column": "30",
+      "message": "Expected indentation of 0 spaces but found 29",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "35",
+      "column": "53",
+      "message": "Expected indentation of 0 spaces but found 52",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "36",
+      "column": "5",
+      "message": "Expected indentation of 0 spaces but found 4",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "40",
+      "column": "27",
+      "message": "Expected indentation of 0 spaces but found 26",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "40",
+      "column": "33",
+      "message": "Expected indentation of 0 spaces but found 32",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "40",
+      "column": "25",
+      "message": "Expected indentation of 0 spaces but found 24",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "40",
+      "column": "24",
+      "message": "Expected indentation of 0 spaces but found 23",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "40",
+      "column": "14",
+      "message": "Expected indentation of 0 spaces but found 13",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "40",
+      "column": "5",
+      "message": "Expected indentation of 0 spaces but found 4",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "42",
+      "column": "28",
+      "message": "Expected indentation of 0 spaces but found 27",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "42",
+      "column": "31",
+      "message": "Expected indentation of 0 spaces but found 30",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "42",
+      "column": "38",
+      "message": "Expected indentation of 0 spaces but found 37",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "42",
+      "column": "9",
+      "message": "Expected indentation of 0 spaces but found 8",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "42",
+      "column": "16",
+      "message": "Expected indentation of 0 spaces but found 15",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "42",
+      "column": "17",
+      "message": "Expected indentation of 0 spaces but found 16",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "42",
+      "column": "20",
+      "message": "Expected indentation of 0 spaces but found 19",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "42",
+      "column": "21",
+      "message": "Expected indentation of 0 spaces but found 20",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "42",
+      "column": "39",
+      "message": "Expected indentation of 0 spaces but found 38",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "43",
+      "column": "26",
+      "message": "Expected indentation of 0 spaces but found 25",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "43",
+      "column": "36",
+      "message": "Expected indentation of 0 spaces but found 35",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "43",
+      "column": "37",
+      "message": "Expected indentation of 0 spaces but found 36",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "43",
+      "column": "38",
+      "message": "Expected indentation of 0 spaces but found 37",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "43",
+      "column": "9",
+      "message": "Expected indentation of 0 spaces but found 8",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "43",
+      "column": "17",
+      "message": "Expected indentation of 0 spaces but found 16",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "43",
+      "column": "18",
+      "message": "Expected indentation of 0 spaces but found 17",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "43",
+      "column": "25",
+      "message": "Expected indentation of 0 spaces but found 24",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "43",
+      "column": "33",
+      "message": "Expected indentation of 0 spaces but found 32",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "45",
+      "column": "25",
+      "message": "Expected indentation of 0 spaces but found 24",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "45",
+      "column": "18",
+      "message": "Expected indentation of 0 spaces but found 17",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "45",
+      "column": "16",
+      "message": "Expected indentation of 0 spaces but found 15",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "45",
+      "column": "26",
+      "message": "Expected indentation of 0 spaces but found 25",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "45",
+      "column": "14",
+      "message": "Expected indentation of 0 spaces but found 13",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "45",
+      "column": "9",
+      "message": "Expected indentation of 0 spaces but found 8",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "45",
+      "column": "24",
+      "message": "Expected indentation of 0 spaces but found 23",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "46",
+      "column": "9",
+      "message": "Expected indentation of 0 spaces but found 8",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "46",
+      "column": "31",
+      "message": "Expected indentation of 0 spaces but found 30",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "46",
+      "column": "25",
+      "message": "Expected indentation of 0 spaces but found 24",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "46",
+      "column": "17",
+      "message": "Expected indentation of 0 spaces but found 16",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "49",
+      "column": "40",
+      "message": "Expected indentation of 0 spaces but found 39",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "49",
+      "column": "34",
+      "message": "Expected indentation of 0 spaces but found 33",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "49",
+      "column": "22",
+      "message": "Expected indentation of 0 spaces but found 21",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "49",
+      "column": "14",
+      "message": "Expected indentation of 0 spaces but found 13",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "49",
+      "column": "9",
+      "message": "Expected indentation of 0 spaces but found 8",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "49",
+      "column": "24",
+      "message": "Expected indentation of 0 spaces but found 23",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "49",
+      "column": "20",
+      "message": "Expected indentation of 0 spaces but found 19",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "49",
+      "column": "33",
+      "message": "Expected indentation of 0 spaces but found 32",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "49",
+      "column": "26",
+      "message": "Expected indentation of 0 spaces but found 25",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "51",
+      "column": "31",
+      "message": "Expected indentation of 0 spaces but found 30",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "51",
+      "column": "32",
+      "message": "Expected indentation of 0 spaces but found 31",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "51",
+      "column": "9",
+      "message": "Expected indentation of 0 spaces but found 8",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "51",
+      "column": "16",
+      "message": "Expected indentation of 0 spaces but found 15",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "51",
+      "column": "18",
+      "message": "Expected indentation of 0 spaces but found 17",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "51",
+      "column": "25",
+      "message": "Expected indentation of 0 spaces but found 24",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "51",
+      "column": "26",
+      "message": "Expected indentation of 0 spaces but found 25",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "54",
+      "column": "35",
+      "message": "Expected indentation of 0 spaces but found 34",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "54",
+      "column": "16",
+      "message": "Expected indentation of 0 spaces but found 15",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "54",
+      "column": "37",
+      "message": "Expected indentation of 0 spaces but found 36",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "54",
+      "column": "38",
+      "message": "Expected indentation of 0 spaces but found 37",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "54",
+      "column": "9",
+      "message": "Expected indentation of 0 spaces but found 8",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "54",
+      "column": "15",
+      "message": "Expected indentation of 0 spaces but found 14",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "54",
+      "column": "24",
+      "message": "Expected indentation of 0 spaces but found 23",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "54",
+      "column": "25",
+      "message": "Expected indentation of 0 spaces but found 24",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "54",
+      "column": "36",
+      "message": "Expected indentation of 0 spaces but found 35",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "57",
+      "column": "38",
+      "message": "Expected indentation of 0 spaces but found 37",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "57",
+      "column": "39",
+      "message": "Expected indentation of 0 spaces but found 38",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "57",
+      "column": "40",
+      "message": "Expected indentation of 0 spaces but found 39",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "57",
+      "column": "41",
+      "message": "Expected indentation of 0 spaces but found 40",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "57",
+      "column": "42",
+      "message": "Expected indentation of 0 spaces but found 41",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "57",
+      "column": "43",
+      "message": "Expected indentation of 0 spaces but found 42",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "57",
+      "column": "31",
+      "message": "Expected indentation of 0 spaces but found 30",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "57",
+      "column": "23",
+      "message": "Expected indentation of 0 spaces but found 22",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "57",
+      "column": "19",
+      "message": "Expected indentation of 0 spaces but found 18",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "57",
+      "column": "17",
+      "message": "Expected indentation of 0 spaces but found 16",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "57",
+      "column": "9",
+      "message": "Expected indentation of 0 spaces but found 8",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/lottery.sol",
+      "line": "58",
+      "column": "5",
+      "message": "Expected indentation of 0 spaces but found 4",
+      "level": "Error",
+      "type": "indent"
+    }
+  ]
+}

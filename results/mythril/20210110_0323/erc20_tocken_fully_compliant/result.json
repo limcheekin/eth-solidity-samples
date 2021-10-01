@@ -1,0 +1,12 @@
+{
+  "contract": "erc20_tocken_fully_compliant",
+  "tool": "mythril",
+  "start": 1633058625.825744,
+  "end": 1633058627.729119,
+  "duration": 1.9033751487731934,
+  "analysis": {
+    "success": false,
+    "error": "Solc experienced a fatal error (code 1).\n\n//home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/erc20_tocken_fully_compliant.sol:27:17: Error: Expected identifier but got reserved keyword 'override'\n    uint public override totalSupply;\n                ^------^\n",
+    "issues": []
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "contract": "auction_final",
+  "tool": "solhint",
+  "start": 1633058575.262362,
+  "end": 1633058576.4841895,
+  "duration": 1.221827507019043,
+  "analysis": [
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol",
+      "line": "91",
+      "column": "14",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol",
+      "line": "92",
+      "column": "14",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol",
+      "line": "94",
+      "column": "5",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol",
+      "line": "101",
+      "column": "8",
+      "message": "Expected indentation of 8 spaces but found 7",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol",
+      "line": "104",
+      "column": "8",
+      "message": "Expected indentation of 8 spaces but found 7",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol",
+      "line": "107",
+      "column": "8",
+      "message": "Expected indentation of 8 spaces but found 7",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol",
+      "line": "108",
+      "column": "8",
+      "message": "Expected indentation of 8 spaces but found 7",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol",
+      "line": "110",
+      "column": "8",
+      "message": "Expected indentation of 8 spaces but found 7",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol",
+      "line": "111",
+      "column": "12",
+      "message": "Expected indentation of 12 spaces but found 11",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol",
+      "line": "112",
+      "column": "12",
+      "message": "Expected indentation of 12 spaces but found 11",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol",
+      "line": "113",
+      "column": "8",
+      "message": "Expected indentation of 8 spaces but found 7",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol",
+      "line": "114",
+      "column": "12",
+      "message": "Expected indentation of 12 spaces but found 11",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol",
+      "line": "115",
+      "column": "16",
+      "message": "Expected indentation of 16 spaces but found 15",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol",
+      "line": "116",
+      "column": "16",
+      "message": "Expected indentation of 16 spaces but found 15",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol",
+      "line": "117",
+      "column": "12",
+      "message": "Expected indentation of 12 spaces but found 11",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol",
+      "line": "118",
+      "column": "16",
+      "message": "Expected indentation of 16 spaces but found 15",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol",
+      "line": "119",
+      "column": "20",
+      "message": "Expected indentation of 20 spaces but found 19",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol",
+      "line": "120",
+      "column": "20",
+      "message": "Expected indentation of 20 spaces but found 19",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol",
+      "line": "121",
+      "column": "16",
+      "message": "Expected indentation of 16 spaces but found 15",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol",
+      "line": "122",
+      "column": "20",
+      "message": "Expected indentation of 20 spaces but found 19",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol",
+      "line": "123",
+      "column": "20",
+      "message": "Expected indentation of 20 spaces but found 19",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol",
+      "line": "124",
+      "column": "16",
+      "message": "Expected indentation of 16 spaces but found 15",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol",
+      "line": "125",
+      "column": "12",
+      "message": "Expected indentation of 12 spaces but found 11",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol",
+      "line": "126",
+      "column": "8",
+      "message": "Expected indentation of 8 spaces but found 7",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol",
+      "line": "129",
+      "column": "8",
+      "message": "Expected indentation of 8 spaces but found 7",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol",
+      "line": "132",
+      "column": "8",
+      "message": "Expected indentation of 8 spaces but found 7",
+      "level": "Error",
+      "type": "indent"
+    }
+  ]
+}

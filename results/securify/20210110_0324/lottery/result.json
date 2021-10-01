@@ -1,0 +1,8 @@
+{
+  "contract": "lottery",
+  "tool": "securify",
+  "start": 1633058657.9935265,
+  "end": 1633058658.783318,
+  "duration": 0.7897915840148926,
+  "analysis": null
+}

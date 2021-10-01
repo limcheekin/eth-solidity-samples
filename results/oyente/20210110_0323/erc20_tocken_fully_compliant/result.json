@@ -1,0 +1,8 @@
+{
+  "contract": "erc20_tocken_fully_compliant",
+  "tool": "oyente",
+  "start": 1633058633.4490795,
+  "end": 1633058634.3643184,
+  "duration": 0.9152388572692871,
+  "analysis": []
+}

@@ -1,0 +1,33 @@
+{
+  "contract": "erc20_tocken_basic",
+  "tool": "smartcheck",
+  "start": 1633058607.0535161,
+  "end": 1633058610.1829476,
+  "duration": 3.1294314861297607,
+  "analysis": [
+    {
+      "name": "SOLIDITY_PRAGMAS_VERSION",
+      "patternId": "23fc32",
+      "severity": 1,
+      "line": 3,
+      "column": 16,
+      "content": ">="
+    },
+    {
+      "name": "SOLIDITY_PRAGMAS_VERSION",
+      "patternId": "23fc32",
+      "severity": 1,
+      "line": 3,
+      "column": 24,
+      "content": "<"
+    },
+    {
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1,
+      "line": 34,
+      "column": 4,
+      "content": "constructor(){totalSupply=1000000;founder=msg.sender;balances[founder]=totalSupply;}"
+    }
+  ]
+}

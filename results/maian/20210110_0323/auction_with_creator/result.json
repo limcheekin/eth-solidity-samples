@@ -1,0 +1,12 @@
+{
+  "contract": "auction_with_creator",
+  "tool": "maian",
+  "start": 1633058599.5277338,
+  "end": 1633058600.6623373,
+  "duration": 1.134603500366211,
+  "analysis": {
+    "is_lock_vulnerable": false,
+    "is_prodigal_vulnerable": false,
+    "is_suicidal_vulnerable": false
+  }
+}

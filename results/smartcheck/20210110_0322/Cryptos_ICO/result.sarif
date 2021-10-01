@@ -1,0 +1,340 @@
+{
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "SmartCheck",
+          "fullDescription": {
+            "text": "Securify automatically checks for vulnerabilities and bad coding practices. It runs lexical and syntactical analysis on Solidity source code."
+          },
+          "informationUri": "https://tool.smartdec.net/",
+          "rules": [
+            {
+              "id": "Ignore_22",
+              "name": "IgnoreVulnerability",
+              "shortDescription": {
+                "text": "SOLIDITY_ERC20_APPROVE"
+              }
+            },
+            {
+              "id": "Other_19",
+              "name": "OtherVulnerability",
+              "shortDescription": {
+                "text": "SOLIDITY_LOCKED_MONEY"
+              }
+            },
+            {
+              "id": "Ignore_28",
+              "name": "IgnoreVulnerability",
+              "shortDescription": {
+                "text": "SOLIDITY_PRAGMAS_VERSION"
+              }
+            },
+            {
+              "id": "Ignore_38",
+              "name": "IgnoreVulnerability",
+              "shortDescription": {
+                "text": "SOLIDITY_VISIBILITY"
+              }
+            }
+          ],
+          "version": "0.0.12"
+        }
+      },
+      "artifacts": [
+        {
+          "location": {
+            "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/Cryptos_ICO.sol"
+          },
+          "sourceLanguage": "Solidity"
+        }
+      ],
+      "logicalLocations": [
+        {
+          "kind": "contract",
+          "name": "Cryptos_ICO"
+        }
+      ],
+      "results": [
+        {
+          "message": {
+            "text": "SOLIDITY_ERC20_APPROVE"
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/Cryptos_ICO.sol"
+                },
+                "region": {
+                  "snippet": {
+                    "text": "functionapprove(addressspender,uinttokens)publicoverridereturns(boolsuccess){require(balances[msg.sender]>=tokens);require(tokens>0);allowed[msg.sender][spender]=tokens;emitApproval(msg.sender,spender,tokens);returntrue;}"
+                  },
+                  "startColumn": 4,
+                  "startLine": 65
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_22"
+        },
+        {
+          "message": {
+            "text": "SOLIDITY_LOCKED_MONEY"
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/Cryptos_ICO.sol"
+                },
+                "region": {
+                  "snippet": {
+                    "text": "contractCryptosICOisCryptos{addresspublicadmin;addresspayablepublicdeposit;uinttokenPrice=0.001ether;uintpublichardCap=300ether;uintpublicraisedAmount;uintpublicsaleStart=block.timestamp;uintpublicsaleEnd=block.timestamp+604800;uintpublictokenTradeStart=saleEnd+604800;uintpublicmaxInvestment=5ether;uintpublicminInvestment=0.1ether;enumState{beforeStart,running,afterEnd,halted}StatepublicicoState;constructor(addresspayable_deposit){deposit=_deposit;admin=msg.sender;icoState=State.beforeStart;}"
+                  },
+                  "startColumn": 0,
+                  "startLine": 89
+                }
+              }
+            }
+          ],
+          "ruleId": "Other_19"
+        },
+        {
+          "message": {
+            "text": "SOLIDITY_PRAGMAS_VERSION"
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/Cryptos_ICO.sol"
+                },
+                "region": {
+                  "snippet": {
+                    "text": ">="
+                  },
+                  "startColumn": 16,
+                  "startLine": 3
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_28"
+        },
+        {
+          "message": {
+            "text": "SOLIDITY_PRAGMAS_VERSION"
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/Cryptos_ICO.sol"
+                },
+                "region": {
+                  "snippet": {
+                    "text": "<"
+                  },
+                  "startColumn": 24,
+                  "startLine": 3
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_28"
+        },
+        {
+          "message": {
+            "text": "SOLIDITY_VISIBILITY"
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/Cryptos_ICO.sol"
+                },
+                "region": {
+                  "snippet": {
+                    "text": "constructor(){totalSupply=1000000;founder=msg.sender;balances[founder]=totalSupply;}"
+                  },
+                  "startColumn": 4,
+                  "startLine": 37
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_38"
+        },
+        {
+          "message": {
+            "text": "SOLIDITY_VISIBILITY"
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/Cryptos_ICO.sol"
+                },
+                "region": {
+                  "snippet": {
+                    "text": "constructor(addresspayable"
+                  },
+                  "startColumn": 4,
+                  "startLine": 105
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_38"
+        },
+        {
+          "message": {
+            "text": "SOLIDITY_VISIBILITY"
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/Cryptos_ICO.sol"
+                },
+                "region": {
+                  "snippet": {
+                    "text": "mapping(address=>mapping(address=>uint))allowed;"
+                  },
+                  "startColumn": 4,
+                  "startLine": 33
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_38"
+        },
+        {
+          "message": {
+            "text": "SOLIDITY_VISIBILITY"
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/Cryptos_ICO.sol"
+                },
+                "region": {
+                  "snippet": {
+                    "text": "uinttokenPrice=0.001ether;"
+                  },
+                  "startColumn": 4,
+                  "startLine": 92
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_38"
+        },
+        {
+          "message": {
+            "text": "SOLIDITY_VISIBILITY"
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/Cryptos_ICO.sol"
+                },
+                "region": {
+                  "snippet": {
+                    "text": "_deposit){"
+                  },
+                  "startColumn": 32,
+                  "startLine": 105
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_38"
+        },
+        {
+          "message": {
+            "text": "SOLIDITY_VISIBILITY"
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/Cryptos_ICO.sol"
+                },
+                "region": {
+                  "snippet": {
+                    "text": "deposit=_deposit;"
+                  },
+                  "startColumn": 8,
+                  "startLine": 106
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_38"
+        },
+        {
+          "message": {
+            "text": "SOLIDITY_VISIBILITY"
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/Cryptos_ICO.sol"
+                },
+                "region": {
+                  "snippet": {
+                    "text": "admin=msg."
+                  },
+                  "startColumn": 8,
+                  "startLine": 107
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_38"
+        },
+        {
+          "message": {
+            "text": "SOLIDITY_VISIBILITY"
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/Cryptos_ICO.sol"
+                },
+                "region": {
+                  "snippet": {
+                    "text": "sender;icoState=State.beforeStart;"
+                  },
+                  "startColumn": 20,
+                  "startLine": 107
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_38"
+        }
+      ]
+    }
+  ],
+  "version": "2.1.0",
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json"
+}

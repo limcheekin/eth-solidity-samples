@@ -1,0 +1,8 @@
+{
+  "contract": "CrowdFunding",
+  "tool": "slither",
+  "start": 1633058419.542102,
+  "end": 1633058431.4956124,
+  "duration": 11.953510284423828,
+  "analysis": []
+}

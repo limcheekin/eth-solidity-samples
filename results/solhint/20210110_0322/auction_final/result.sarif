@@ -1,0 +1,592 @@
+{
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "Solhint",
+          "fullDescription": {
+            "text": "Open source project for linting solidity code. This project provide both security and style guide validations."
+          },
+          "informationUri": "https://protofire.github.io/solhint/",
+          "rules": [
+            {
+              "id": "Ignore_40",
+              "fullDescription": {
+                "text": "Expected indentation of 12 spaces but found 13"
+              },
+              "name": "IgnoreVulnerability",
+              "shortDescription": {
+                "text": "indent"
+              }
+            }
+          ],
+          "version": "3.3.2"
+        }
+      },
+      "artifacts": [
+        {
+          "location": {
+            "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol"
+          },
+          "sourceLanguage": "Solidity"
+        }
+      ],
+      "logicalLocations": [
+        {
+          "kind": "contract",
+          "name": "auction_final"
+        }
+      ],
+      "results": [
+        {
+          "message": {
+            "text": "indent"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol"
+                },
+                "region": {
+                  "snippet": {},
+                  "startColumn": 14,
+                  "startLine": 91
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_40"
+        },
+        {
+          "message": {
+            "text": "indent"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol"
+                },
+                "region": {
+                  "snippet": {},
+                  "startColumn": 14,
+                  "startLine": 92
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_40"
+        },
+        {
+          "message": {
+            "text": "indent"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol"
+                },
+                "region": {
+                  "snippet": {},
+                  "startColumn": 5,
+                  "startLine": 94
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_40"
+        },
+        {
+          "message": {
+            "text": "indent"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol"
+                },
+                "region": {
+                  "snippet": {},
+                  "startColumn": 8,
+                  "startLine": 101
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_40"
+        },
+        {
+          "message": {
+            "text": "indent"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol"
+                },
+                "region": {
+                  "snippet": {},
+                  "startColumn": 8,
+                  "startLine": 104
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_40"
+        },
+        {
+          "message": {
+            "text": "indent"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol"
+                },
+                "region": {
+                  "snippet": {},
+                  "startColumn": 8,
+                  "startLine": 107
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_40"
+        },
+        {
+          "message": {
+            "text": "indent"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol"
+                },
+                "region": {
+                  "snippet": {},
+                  "startColumn": 8,
+                  "startLine": 108
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_40"
+        },
+        {
+          "message": {
+            "text": "indent"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol"
+                },
+                "region": {
+                  "snippet": {},
+                  "startColumn": 8,
+                  "startLine": 110
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_40"
+        },
+        {
+          "message": {
+            "text": "indent"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol"
+                },
+                "region": {
+                  "snippet": {},
+                  "startColumn": 12,
+                  "startLine": 111
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_40"
+        },
+        {
+          "message": {
+            "text": "indent"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol"
+                },
+                "region": {
+                  "snippet": {},
+                  "startColumn": 12,
+                  "startLine": 112
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_40"
+        },
+        {
+          "message": {
+            "text": "indent"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol"
+                },
+                "region": {
+                  "snippet": {},
+                  "startColumn": 8,
+                  "startLine": 113
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_40"
+        },
+        {
+          "message": {
+            "text": "indent"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol"
+                },
+                "region": {
+                  "snippet": {},
+                  "startColumn": 12,
+                  "startLine": 114
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_40"
+        },
+        {
+          "message": {
+            "text": "indent"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol"
+                },
+                "region": {
+                  "snippet": {},
+                  "startColumn": 16,
+                  "startLine": 115
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_40"
+        },
+        {
+          "message": {
+            "text": "indent"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol"
+                },
+                "region": {
+                  "snippet": {},
+                  "startColumn": 16,
+                  "startLine": 116
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_40"
+        },
+        {
+          "message": {
+            "text": "indent"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol"
+                },
+                "region": {
+                  "snippet": {},
+                  "startColumn": 12,
+                  "startLine": 117
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_40"
+        },
+        {
+          "message": {
+            "text": "indent"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol"
+                },
+                "region": {
+                  "snippet": {},
+                  "startColumn": 16,
+                  "startLine": 118
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_40"
+        },
+        {
+          "message": {
+            "text": "indent"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol"
+                },
+                "region": {
+                  "snippet": {},
+                  "startColumn": 20,
+                  "startLine": 119
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_40"
+        },
+        {
+          "message": {
+            "text": "indent"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol"
+                },
+                "region": {
+                  "snippet": {},
+                  "startColumn": 20,
+                  "startLine": 120
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_40"
+        },
+        {
+          "message": {
+            "text": "indent"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol"
+                },
+                "region": {
+                  "snippet": {},
+                  "startColumn": 16,
+                  "startLine": 121
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_40"
+        },
+        {
+          "message": {
+            "text": "indent"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol"
+                },
+                "region": {
+                  "snippet": {},
+                  "startColumn": 20,
+                  "startLine": 122
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_40"
+        },
+        {
+          "message": {
+            "text": "indent"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol"
+                },
+                "region": {
+                  "snippet": {},
+                  "startColumn": 20,
+                  "startLine": 123
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_40"
+        },
+        {
+          "message": {
+            "text": "indent"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol"
+                },
+                "region": {
+                  "snippet": {},
+                  "startColumn": 16,
+                  "startLine": 124
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_40"
+        },
+        {
+          "message": {
+            "text": "indent"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol"
+                },
+                "region": {
+                  "snippet": {},
+                  "startColumn": 12,
+                  "startLine": 125
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_40"
+        },
+        {
+          "message": {
+            "text": "indent"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol"
+                },
+                "region": {
+                  "snippet": {},
+                  "startColumn": 8,
+                  "startLine": 126
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_40"
+        },
+        {
+          "message": {
+            "text": "indent"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol"
+                },
+                "region": {
+                  "snippet": {},
+                  "startColumn": 8,
+                  "startLine": 129
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_40"
+        },
+        {
+          "message": {
+            "text": "indent"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/auction_final.sol"
+                },
+                "region": {
+                  "snippet": {},
+                  "startColumn": 8,
+                  "startLine": 132
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_40"
+        }
+      ]
+    }
+  ],
+  "version": "2.1.0",
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json"
+}

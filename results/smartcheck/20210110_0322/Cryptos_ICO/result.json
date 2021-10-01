@@ -1,0 +1,105 @@
+{
+  "contract": "Cryptos_ICO",
+  "tool": "smartcheck",
+  "start": 1633058551.2171292,
+  "end": 1633058555.0890229,
+  "duration": 3.8718936443328857,
+  "analysis": [
+    {
+      "name": "SOLIDITY_ERC20_APPROVE",
+      "patternId": "af782c",
+      "severity": 2,
+      "line": 65,
+      "column": 4,
+      "content": "functionapprove(addressspender,uinttokens)publicoverridereturns(boolsuccess){require(balances[msg.sender]>=tokens);require(tokens>0);allowed[msg.sender][spender]=tokens;emitApproval(msg.sender,spender,tokens);returntrue;}"
+    },
+    {
+      "name": "SOLIDITY_LOCKED_MONEY",
+      "patternId": "30281d",
+      "severity": 3,
+      "line": 89,
+      "column": 0,
+      "content": "contractCryptosICOisCryptos{addresspublicadmin;addresspayablepublicdeposit;uinttokenPrice=0.001ether;uintpublichardCap=300ether;uintpublicraisedAmount;uintpublicsaleStart=block.timestamp;uintpublicsaleEnd=block.timestamp+604800;uintpublictokenTradeStart=saleEnd+604800;uintpublicmaxInvestment=5ether;uintpublicminInvestment=0.1ether;enumState{beforeStart,running,afterEnd,halted}StatepublicicoState;constructor(addresspayable_deposit){deposit=_deposit;admin=msg.sender;icoState=State.beforeStart;}"
+    },
+    {
+      "name": "SOLIDITY_PRAGMAS_VERSION",
+      "patternId": "23fc32",
+      "severity": 1,
+      "line": 3,
+      "column": 16,
+      "content": ">="
+    },
+    {
+      "name": "SOLIDITY_PRAGMAS_VERSION",
+      "patternId": "23fc32",
+      "severity": 1,
+      "line": 3,
+      "column": 24,
+      "content": "<"
+    },
+    {
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1,
+      "line": 37,
+      "column": 4,
+      "content": "constructor(){totalSupply=1000000;founder=msg.sender;balances[founder]=totalSupply;}"
+    },
+    {
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1,
+      "line": 105,
+      "column": 4,
+      "content": "constructor(addresspayable"
+    },
+    {
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1,
+      "line": 33,
+      "column": 4,
+      "content": "mapping(address=>mapping(address=>uint))allowed;"
+    },
+    {
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1,
+      "line": 92,
+      "column": 4,
+      "content": "uinttokenPrice=0.001ether;"
+    },
+    {
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1,
+      "line": 105,
+      "column": 32,
+      "content": "_deposit){"
+    },
+    {
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1,
+      "line": 106,
+      "column": 8,
+      "content": "deposit=_deposit;"
+    },
+    {
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1,
+      "line": 107,
+      "column": 8,
+      "content": "admin=msg."
+    },
+    {
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1,
+      "line": 107,
+      "column": 20,
+      "content": "sender;icoState=State.beforeStart;"
+    }
+  ]
+}

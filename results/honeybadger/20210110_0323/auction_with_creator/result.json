@@ -1,0 +1,8 @@
+{
+  "contract": "auction_with_creator",
+  "tool": "honeybadger",
+  "start": 1633058598.6159751,
+  "end": 1633058599.4994757,
+  "duration": 0.8835005760192871,
+  "analysis": []
+}

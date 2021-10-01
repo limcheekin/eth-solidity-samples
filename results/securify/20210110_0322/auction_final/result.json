@@ -1,0 +1,8 @@
+{
+  "contract": "auction_final",
+  "tool": "securify",
+  "start": 1633058576.7070866,
+  "end": 1633058577.5763962,
+  "duration": 0.869309663772583,
+  "analysis": null
+}

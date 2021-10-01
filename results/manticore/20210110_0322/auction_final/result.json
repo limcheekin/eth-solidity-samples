@@ -1,0 +1,8 @@
+{
+  "contract": "auction_final",
+  "tool": "manticore",
+  "start": 1633058569.6923738,
+  "end": 1633058570.7352636,
+  "duration": 1.0428898334503174,
+  "analysis": []
+}

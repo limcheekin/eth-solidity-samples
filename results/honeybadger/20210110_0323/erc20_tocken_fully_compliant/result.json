@@ -1,0 +1,8 @@
+{
+  "contract": "erc20_tocken_fully_compliant",
+  "tool": "honeybadger",
+  "start": 1633058639.9088128,
+  "end": 1633058640.771163,
+  "duration": 0.8623502254486084,
+  "analysis": []
+}

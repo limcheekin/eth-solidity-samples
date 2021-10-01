@@ -1,0 +1,8 @@
+{
+  "contract": "Cryptos_ICO",
+  "tool": "manticore",
+  "start": 1633058549.882077,
+  "end": 1633058551.109201,
+  "duration": 1.2271239757537842,
+  "analysis": []
+}

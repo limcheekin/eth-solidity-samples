@@ -1,0 +1,193 @@
+{
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "Solhint",
+          "fullDescription": {
+            "text": "Open source project for linting solidity code. This project provide both security and style guide validations."
+          },
+          "informationUri": "https://protofire.github.io/solhint/",
+          "rules": [
+            {
+              "id": "Ignore_40",
+              "fullDescription": {
+                "text": "Expected indentation of 8 spaces but found 9"
+              },
+              "name": "IgnoreVulnerability",
+              "shortDescription": {
+                "text": "indent"
+              }
+            }
+          ],
+          "version": "3.3.2"
+        }
+      },
+      "artifacts": [
+        {
+          "location": {
+            "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/erc20_tocken_fully_compliant.sol"
+          },
+          "sourceLanguage": "Solidity"
+        }
+      ],
+      "logicalLocations": [
+        {
+          "kind": "contract",
+          "name": "erc20_tocken_fully_compliant"
+        }
+      ],
+      "results": [
+        {
+          "message": {
+            "text": "indent"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/erc20_tocken_fully_compliant.sol"
+                },
+                "region": {
+                  "snippet": {},
+                  "startColumn": 10,
+                  "startLine": 77
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_40"
+        },
+        {
+          "message": {
+            "text": "indent"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/erc20_tocken_fully_compliant.sol"
+                },
+                "region": {
+                  "snippet": {},
+                  "startColumn": 10,
+                  "startLine": 78
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_40"
+        },
+        {
+          "message": {
+            "text": "indent"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/erc20_tocken_fully_compliant.sol"
+                },
+                "region": {
+                  "snippet": {},
+                  "startColumn": 10,
+                  "startLine": 80
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_40"
+        },
+        {
+          "message": {
+            "text": "indent"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/erc20_tocken_fully_compliant.sol"
+                },
+                "region": {
+                  "snippet": {},
+                  "startColumn": 10,
+                  "startLine": 81
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_40"
+        },
+        {
+          "message": {
+            "text": "indent"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/erc20_tocken_fully_compliant.sol"
+                },
+                "region": {
+                  "snippet": {},
+                  "startColumn": 10,
+                  "startLine": 82
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_40"
+        },
+        {
+          "message": {
+            "text": "indent"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/erc20_tocken_fully_compliant.sol"
+                },
+                "region": {
+                  "snippet": {},
+                  "startColumn": 10,
+                  "startLine": 84
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_40"
+        },
+        {
+          "message": {
+            "text": "indent"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/erc20_tocken_fully_compliant.sol"
+                },
+                "region": {
+                  "snippet": {},
+                  "startColumn": 6,
+                  "startLine": 85
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_40"
+        }
+      ]
+    }
+  ],
+  "version": "2.1.0",
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json"
+}

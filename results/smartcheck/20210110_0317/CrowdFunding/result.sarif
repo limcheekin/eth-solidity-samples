@@ -1,0 +1,411 @@
+{
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "SmartCheck",
+          "fullDescription": {
+            "text": "Securify automatically checks for vulnerabilities and bad coding practices. It runs lexical and syntactical analysis on Solidity source code."
+          },
+          "informationUri": "https://tool.smartdec.net/",
+          "rules": [
+            {
+              "id": "Ignore_38",
+              "name": "IgnoreVulnerability",
+              "shortDescription": {
+                "text": "SOLIDITY_VISIBILITY"
+              }
+            }
+          ],
+          "version": "0.0.12"
+        }
+      },
+      "artifacts": [
+        {
+          "location": {
+            "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/CrowdFunding.sol"
+          },
+          "sourceLanguage": "Solidity"
+        }
+      ],
+      "logicalLocations": [
+        {
+          "kind": "contract",
+          "name": "CrowdFunding"
+        }
+      ],
+      "results": [
+        {
+          "message": {
+            "text": "SOLIDITY_VISIBILITY"
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/CrowdFunding.sol"
+                },
+                "region": {
+                  "snippet": {
+                    "text": "constructor(uint_goal,uint_deadline){goal=_goal;deadline=block.timestamp+_deadline;admin=msg.sender;minimumContribution=100wei;}"
+                  },
+                  "startColumn": 4,
+                  "startLine": 36
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_38"
+        },
+        {
+          "message": {
+            "text": "SOLIDITY_VISIBILITY"
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/CrowdFunding.sol"
+                },
+                "region": {
+                  "snippet": {
+                    "text": "functioncreateRequest(stringcalldata_description,address<missing ')'>payable"
+                  },
+                  "startColumn": 4,
+                  "startLine": 88
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_38"
+        },
+        {
+          "message": {
+            "text": "SOLIDITY_VISIBILITY"
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/CrowdFunding.sol"
+                },
+                "region": {
+                  "snippet": {
+                    "text": "_recipient,"
+                  },
+                  "startColumn": 73,
+                  "startLine": 88
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_38"
+        },
+        {
+          "message": {
+            "text": "SOLIDITY_VISIBILITY"
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/CrowdFunding.sol"
+                },
+                "region": {
+                  "snippet": {
+                    "text": "uint_value)public"
+                  },
+                  "startColumn": 85,
+                  "startLine": 88
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_38"
+        },
+        {
+          "message": {
+            "text": "SOLIDITY_VISIBILITY"
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/CrowdFunding.sol"
+                },
+                "region": {
+                  "snippet": {
+                    "text": "onlyAdmin{Requeststorage"
+                  },
+                  "startColumn": 105,
+                  "startLine": 88
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_38"
+        },
+        {
+          "message": {
+            "text": "SOLIDITY_VISIBILITY"
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/CrowdFunding.sol"
+                },
+                "region": {
+                  "snippet": {
+                    "text": "newRequest=requests["
+                  },
+                  "startColumn": 24,
+                  "startLine": 90
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_38"
+        },
+        {
+          "message": {
+            "text": "SOLIDITY_VISIBILITY"
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/CrowdFunding.sol"
+                },
+                "region": {
+                  "snippet": {
+                    "text": "numRequests];"
+                  },
+                  "startColumn": 46,
+                  "startLine": 90
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_38"
+        },
+        {
+          "message": {
+            "text": "SOLIDITY_VISIBILITY"
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/CrowdFunding.sol"
+                },
+                "region": {
+                  "snippet": {
+                    "text": "numRequests++;"
+                  },
+                  "startColumn": 8,
+                  "startLine": 91
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_38"
+        },
+        {
+          "message": {
+            "text": "SOLIDITY_VISIBILITY"
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/CrowdFunding.sol"
+                },
+                "region": {
+                  "snippet": {
+                    "text": "newRequest.description=_description;"
+                  },
+                  "startColumn": 8,
+                  "startLine": 93
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_38"
+        },
+        {
+          "message": {
+            "text": "SOLIDITY_VISIBILITY"
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/CrowdFunding.sol"
+                },
+                "region": {
+                  "snippet": {
+                    "text": "newRequest.recipient=_recipient;"
+                  },
+                  "startColumn": 8,
+                  "startLine": 94
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_38"
+        },
+        {
+          "message": {
+            "text": "SOLIDITY_VISIBILITY"
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/CrowdFunding.sol"
+                },
+                "region": {
+                  "snippet": {
+                    "text": "newRequest.value=_value;"
+                  },
+                  "startColumn": 8,
+                  "startLine": 95
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_38"
+        },
+        {
+          "message": {
+            "text": "SOLIDITY_VISIBILITY"
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/CrowdFunding.sol"
+                },
+                "region": {
+                  "snippet": {
+                    "text": "newRequest.completed=false;"
+                  },
+                  "startColumn": 8,
+                  "startLine": 96
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_38"
+        },
+        {
+          "message": {
+            "text": "SOLIDITY_VISIBILITY"
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/CrowdFunding.sol"
+                },
+                "region": {
+                  "snippet": {
+                    "text": "newRequest.noOfVoters=0;"
+                  },
+                  "startColumn": 8,
+                  "startLine": 97
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_38"
+        },
+        {
+          "message": {
+            "text": "SOLIDITY_VISIBILITY"
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/CrowdFunding.sol"
+                },
+                "region": {
+                  "snippet": {
+                    "text": "emitCreateRequestEvent"
+                  },
+                  "startColumn": 8,
+                  "startLine": 99
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_38"
+        },
+        {
+          "message": {
+            "text": "SOLIDITY_VISIBILITY"
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/CrowdFunding.sol"
+                },
+                "region": {
+                  "snippet": {
+                    "text": "(_description,_recipient,"
+                  },
+                  "startColumn": 31,
+                  "startLine": 99
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_38"
+        },
+        {
+          "message": {
+            "text": "SOLIDITY_VISIBILITY"
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-solidity-samples/eth-solidity-samples/contracts/CrowdFunding.sol"
+                },
+                "region": {
+                  "snippet": {
+                    "text": "_value);"
+                  },
+                  "startColumn": 58,
+                  "startLine": 99
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_38"
+        }
+      ]
+    }
+  ],
+  "version": "2.1.0",
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json"
+}
